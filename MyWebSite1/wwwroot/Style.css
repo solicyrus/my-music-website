@@ -1,0 +1,44 @@
+﻿/*General style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma", Arial, sans-serif;
+    background: linear-gradient(180deg, #fdf6e3, #fff);
+    color: #222;
+    direction: rtl;
+    text-align: center;
+}
+
+/* General container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    background: white;
+}
+
+/* Customize title */
+#title {
+    font-size: 2rem;
+    color: #1a73e8; /* Preferred color */
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* For resizing the video on mobile */
+.video-wrapper iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Button */
+#playPause {
+    margin-top: 15px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
